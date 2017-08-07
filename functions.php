@@ -49,3 +49,10 @@ function maip_site_footer_text( $text ) {
 		$name
 	);
 }
+
+// Remove gutter from content-sidebar-wrap added in Mai Pro Engine
+add_filter( 'genesis_attr_content-sidebar-wrap', 'maip_remove_content_sidebar_wrap_gutter', 99 );
+function maip_remove_content_sidebar_wrap_gutter( $attributes ) {
+	$attributes['class'] = str_replace( 'gutter-30', '', $attributes['class'] );
+	return $attributes;
+}

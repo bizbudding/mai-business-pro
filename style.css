@@ -64,11 +64,6 @@ h6,
 	font-weight: 700;
 }
 
-.sidebar .widget-title,
-.footer-widgets .widget-title {
-	font-size: 24px;
-}
-
 .sidebar .widget-title {
 	margin-bottom: 32px;
 }
@@ -80,19 +75,12 @@ h6,
 	max-width: 1200px;
 	margin: 20px auto;
 	border: 1px solid rgba(0,0,0,0.04);
-	/* -webkit-box-shadow: 0 0 10px 4px rgba(0,0,0,0.015); */
-	/* box-shadow: 0 0 10px 4px rgba(0,0,0,0.015); */
 }
 
 .site-inner {
 	background-color: #fff;
 	padding-left: 0;
 	padding-right: 0;
-}
-
-.section.banner-area {
-	/* margin-left: -26px; */
-	/* margin-right: -26px; */
 }
 
 .width-full,
@@ -123,6 +111,11 @@ h6,
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 
+.content {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
 .content,
 .sidebar {
 	margin-top: 0;
@@ -135,14 +128,14 @@ h6,
 	border: none;
 }
 
-.content > .entry {
-	/* padding-top: 0; */
+.content .archive-description {
+	padding-top: 24px;
 }
 
 .content .entry {
-	/* padding-left: 0; */
-	/* padding-right: 0; */
-	/* padding-bottom: 0; */
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
 }
 
 .sidebar.sidebar-primary {
@@ -160,14 +153,12 @@ h6,
 
 .singular.has-banner-area .featured-image {
 	margin-top: 24px;
-	margin-left: 24px;
-	margin-right: -6px;
 }
 
 .singular:not(.has-banner-area) .featured-image {
 	margin-top: -1px;
-	margin-left: -31px;
-	margin-right: -31px;
+	margin-left: -24px;
+	margin-right: -24px;
 }
 
 .singular:not(.has-banner-area):not(.has-sidebar) .featured-image {
@@ -196,6 +187,15 @@ h6,
 	-webkit-font-smoothing: antialiased;
 }
 
+.adjacent-entry-pagination,
+.after-entry .widget,
+.comment-respond,
+.content .author-box,
+.entry-comments,
+.entry-pings {
+	/* margin-left: 24px; */
+}
+
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
 
@@ -221,6 +221,10 @@ h6,
 
 @media only screen and (max-width: 992px) {}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+	.site-container {
+		margin: -1px;
+	}
+}
 
 @media only screen and (max-width: 544px) {}
