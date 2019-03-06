@@ -1,6 +1,6 @@
 /**
- * Theme Name:          Mai Business Pro
- * Description:         Mai Business Pro is a custom child theme for The Genesis Framework.
+ * Theme Name:          Mai Business Theme
+ * Description:         Mai Business Theme is a custom child theme for The Genesis Framework.
  * Author:              Mike Hemberger, BizBudding Inc
  * Author URI:          https://bizbudding.com/
  * Version:             1.0.0
@@ -15,10 +15,6 @@
 /* Table of Contents
 
 	- Defaults
-	- Structure and Layout
-	- Common Classes
-	- Content Area
-		- Entry Meta
 	- Media Queries (mobile-first)
 	- Media Queries (mobile-second)
 
@@ -27,18 +23,6 @@
 
 /* # Defaults
 ---------------------------------------------------------------------------------------------------- */
-
-/**
- * Retina Logo
- *
- * If uploading double sized (retina) image,
- * put exactly half the width in pixels for retina display.
- * Example: Retina (2x) image is 360px by 90px, CSS should be:
- * max-width: 180px;
- */
-.wp-custom-logo .site-title a {
-	/* max-width: 180px; */
-}
 
 body {
 	background-color: #f4f4f4;
@@ -62,214 +46,11 @@ h6,
 .comment-respond h3,
 .widgettitle,
 .widget-title {
-	font-weight: 700;
-}
-
-/* # Structure and Layout
----------------------------------------------------------------------------------------------------- */
-
-.site-container {
-	background-color: #fff;
-	max-width: 1248px;
-	/* margin: -1px auto; */
-	margin: 0;
-	border: 1px solid rgba(0,0,0,0.085);
-	-webkit-transition: margin 0.025s ease-in-out;
-	-o-transition: margin 0.025s ease-in-out;
-	transition: margin 0.025s ease-in-out;
-}
-
-.site-inner {
-	padding-left: 0;
-	padding-right: 0;
-	overflow: hidden;
-}
-
-.width-full,
-.section .wrap.width-full,
-.section.banner-area > .wrap.width-full {
-	max-width: 1248px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sticky-header .site-header {
-	/* minus 2px for border */
-	max-width: 1198px;
-}
-
-.header-before {
-	border-bottom: 1px solid rgba(0,0,0,0.03);
-}
-
-
-/* # Common Classes
----------------------------------------------------------------------------------------------------- */
-
-.section > .wrap {
-	/* max-width: 1200px; */
-}
-
-.image-bg .inner {
-	border: 6px solid rgba(0,0,0,0.075);
-}
-
-.breadcrumb,
-.md-content .breadcrumb,
-.sm-content .breadcrumb,
-.xs-content .breadcrumb,
-.no-sidebars .breadcrumb {
-	-ms-flex-preferred-size: calc( 100% + 48px );flex-basis: calc( 100% + 48px );
-	max-width: calc( 100% + 48px );
-	background-color: #f8f8f8;
-	font-size: 13px;
-	padding: 8px 24px;
-	margin: 0;
-	border-bottom: 1px solid #f0f0f0;
-	-webkit-font-smoothing: antialiased;
-}
-
-/* # Site Header
----------------------------------------------------------------------------------------------------- */
-
-.nav-header {
-	/* display: none; */
-	/* visibility: hidden; */
-}
-
-#mai-toggle {
-	/* display: -webkit-inline-box; */
-	/* display: -ms-inline-flexbox; */
-	/* display: inline-flex; */
-	/* visibility: visible; */
-}
-
-/* # Content Area
----------------------------------------------------------------------------------------------------- */
-
-.content {
-	padding-left: 24px;
-	padding-right: 24px;
-}
-
-.content,
-.sidebar {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.sidebar {
-	background-color: #fbfbfb;
-}
-
-.entry,
-.sidebar .widget {
-	background-color: transparent;
-	border: none;
-}
-
-.content .archive-description {
-	padding-top: 24px;
-}
-
-.content .entry,
-.related.products .product {
-	padding-left: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-}
-
-.content-sidebar-sidebar .sidebar,
-.content-sidebar .sidebar.sidebar-primary,
-.sidebar-content-sidebar .sidebar.sidebar-primary {
-	border-left: 1px solid #f0f0f0;
-}
-
-.sidebar-sidebar-content .sidebar,
-.sidebar-content .sidebar.sidebar-primary,
-.sidebar-content-sidebar .sidebar.sidebar-secondary {
-	border-right: 1px solid #f0f0f0;
-}
-
-.sidebar .widget {
-	margin: 0;
-	border-bottom: 1px solid #f0f0f0;
-}
-
-.sidebar .widget:last-child {
-	border: none;
-}
-
-.singular.has-banner-area .featured-image {
-	margin-top: 24px;
-}
-
-.singular:not(.has-banner-area) .featured-image {
-	margin-top: -1px;
-	margin-left: -24px;
-	margin-right: -24px;
-}
-
-.singular:not(.has-banner-area):not(.has-sidebar) .featured-image {
-	margin-top: 30px;
-}
-
-.flex-entry.column .entry-image-before-entry:not(.aligncenter):not(.alignleft):not(.alignright),
-.flex-entry.entry > .woocommerce-LoopProduct-link,
-.related.products .product > .woocommerce-LoopProduct-link {
-	width: 100%;
-	margin-top: 0;
-	margin-left: 0;
-	margin-right: 0;
-}
-
-/* ## Entry Meta
---------------------------------------------- */
-
-.entry-footer .entry-meta {
-	border-top: 1px solid #ebe9eb;
-	padding-left: 24px;
-	padding-right: 24px;
-	margin-left: -24px;
-	margin-right: -24px;
-}
-
-.flex-entry .entry-footer .entry-meta {
-	margin-top: 20px;
-}
-
-.entry-comments .comment-meta {
-	-webkit-font-smoothing: antialiased;
-}
-
-.adjacent-entry-pagination,
-.after-entry .widget,
-.comment-respond,
-.content .author-box,
-.entry-comments,
-.entry-pings {
-	/* margin-left: 24px; */
-}
-
-/* # Plugins
----------------------------------------------------------------------------------------------------- */
-
-.enews-widget input {
-	margin-bottom: 12px;
-}
-
-.woocommerce-page.post-type-archive-product .breadcrumb {
-	margin-bottom: 16px;
+	/* font-weight: 700; */
 }
 
 /* # Media Queries (mobile-first)
 ---------------------------------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 1200px) {
-	.site-container {
-		margin: 16px auto;
-	}
-}
 
 @media only screen and (min-width: 1160px) {}
 
