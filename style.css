@@ -25,8 +25,7 @@
 ---------------------------------------------------------------------------------------------------- */
 
 body {
-	background-color: #f4f4f4;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
@@ -35,10 +34,8 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.site-title a,
-.adjacent-entry-pagination a {
-	font-family: 'Montserrat', sans-serif;
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* # Media Queries (mobile-first)
