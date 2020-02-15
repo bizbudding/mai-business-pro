@@ -12,5 +12,11 @@ Please visit http://support.maitheme.com/ for theme support.
 
 CHANGELOG
 
+= 1.1.1 =
+* Add display swapping for Google Fonts.
+
+= 1.1.0 =
+* Update dependencies.
+
 = 1.0.0 =
 * Initial release.

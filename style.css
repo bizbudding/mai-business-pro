@@ -3,7 +3,7 @@
  * Description:         Mai Business Theme is a custom child theme for The Genesis Framework.
  * Author:              Mike Hemberger, BizBudding Inc
  * Author URI:          https://bizbudding.com/
- * Version:             1.0.0
+ * Version:             1.1.1
  *
  * Template:            genesis
  *
@@ -41,13 +41,14 @@ h6 {
 /* # Media Queries (mobile-first)
 ---------------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1160px) {}
-
-@media only screen and (min-width: 993px) {}
+@media only screen and (min-width: 545px) {}
 
 @media only screen and (min-width: 769px) {}
 
-@media only screen and (min-width: 545px) {}
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 1160px) {}
+
 
 /* # Media Queries (mobile-second)
 ---------------------------------------------------------------------------------------------------- */
